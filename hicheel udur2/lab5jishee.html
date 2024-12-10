@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,
+    initial-scale=1.0">
+    <title>document</title>
+    <style>
+        .container {
+        }
+        *{
+            /*border:1px solid block;*/
+            font-size: 20pt;
+        }
+        #title{
+            text-align: center;
+        }
+        input{
+            padding: 10px;
+            border-color: aqua;
+            border-radius: 10px;
+        }
+        #left{
+            display: inline-flex;
+            flex-direction: column;
+            gap:10px;
+        }
+        #btn{
+            padding: 10px;
+            border-color: aqua;
+            border-radius: 10px;
+            background-color: aquamarine;
+        }
+
+        table,th,tr,td{
+            border: 3px solid aqua;
+            border-collapse: collapse;
+        }
+        td{
+            padding: 10px 20px;
+        }
+        #content{
+            display: flex;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            hereglegchiin Burtgel
+        </div>
+        <div id="content">
+            <span id="left">
+                <input type="text" id="ovog" placeholder="Ovog...">
+                <input type="text" id="ner" placeholder="Ner...">
+                <input type="text" id="nas" placeholder="Nas...">
+                <button id="btn">Burtgel</button>
+            </span>
+            <span id="right">
+                <table>
+                    <td>
+                        <td>P</td>
+                        <td>Ovog</td>
+                        <td>Ner</td>
+                        <td>Nas</td>
+                    </td>
+                </table>
+            </span>
+        </div>
+
+    </div>
+</body>
+</html>

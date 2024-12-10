@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url;
+}
+
+.full{
+    background-color: white;
+    text-decoration: none;
+    width: 85vw;
+    height: 85vh;
+    border-radius: 10vh;
+    margin-top: 8.5vh;
+    margin-left: 12.5vh;
+    display: flex;
+}
+
+.full > *{
+    margin-left: 5vw;
+}
+
+
+.Logo{
+    margin-top: 5vh;
+    width: 10vw;
+    height: 10vh;
+}
+
+.wel{
+    font-family: "Sour Gummy" , sans-serif;
+    font-size: 16px;
+    margin-top: 2vh;
+}
+
+.Logo{
+    
+}
